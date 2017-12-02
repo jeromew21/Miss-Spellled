@@ -1,1 +1,17 @@
-
+{
+	"manifest_version": 2,
+	"name": "Miss Spellled",
+	"version": "0.12",
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": ["miss_spellled.js"],
+            "run_at": "document_start"
+		}
+	],
+    "browser_action": {
+      "default_icon": "icon.png"
+    }
+}
