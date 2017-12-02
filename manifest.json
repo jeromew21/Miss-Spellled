@@ -1,12 +1,10 @@
 {
   "manifest_version": 2,
   "name": "Miss Spellled",
-  "version": "0.1",
+  "version": "0.2",
   "content_scripts": [
     {
-      "matches": [
-        "<all_urls>"
-      ],
+      "matches": ["<all_urls>"],
       "js": ["miss_spellled.js"]
     }
   ]
