@@ -1,2 +1,2 @@
 # Miss-Spellled
-Replaces words with slight mispellings
+Chrome extension which replaces words with slight mispellings
